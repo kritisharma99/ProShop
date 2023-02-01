@@ -1,0 +1,36 @@
+1. Setup
+    - npx create-react app
+    - ls -a 
+    - rm -rf .git
+    - remove app.css, test etc files
+    - bring .gitignore -> comes out of frontend make global
+    - add node_module/ -> this is for server
+    - initialize thegit repo ->outside the frontend
+
+2. Footer - header Component
+    - react bootstrap
+    - create component folder - header and footer file
+    - import in app js -> import
+    - move all to Container - react bootstrap - it makes all data to centre 
+
+3. Screens
+- Home Screen = > 
+- Bring Home screen to App.js
+- create Product component
+- In product comp. -> create Card using bootstrap 
+- And display rating by creating new rating component ->which takes two props -> product rating & text
+- one more rpops - color -> but want it to be default
+- Rating.defaultProps = {
+    color:'#f8e825'
+}
+- You can define type of props too by -> 
+
+4. React routes
+- HomeScreen
+- Product Screen
+- Link -> instead of a tag as a tag refresh the whole page -> change a to Link in Product.jsx
+
+5. ProductScreen.jsx
+- match.params.id -> matching to that id which get in url by clicking on product link:
+which redirect us to -. product/:id
+
